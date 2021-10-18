@@ -1,5 +1,7 @@
 #stats.py
 import pandas as pd
+import openpyxl
+
 def total(list_obj):
     total = 0
     n = len(list_obj)
